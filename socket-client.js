@@ -1,5 +1,7 @@
 ;(function(global) {
   const UI_TOPIC = 'iot-home-intruder-ui';
+
+  // TODO change this to EC2 Socket server
   const SOCKET_SERVER = 'http://192.168.1.14:3000';
 
   const socket = global.io(SOCKET_SERVER, {
